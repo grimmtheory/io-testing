@@ -1,0 +1,11 @@
+/dev/xvda1 / ext3 defaults,noatime,barrier=0 0 0
+# 129.74.246.249:/data/grimm /mnt/ossn01 nfs rw,sync,intr,noacl,nocto,nodiratime,nfsvers=4,port=6111 0 0
+# 162.242.168.146:/home/nfstest /mnt/jtg-test3 nfs rw,sync,intr,noacl,nocto,nodiratime,nfsvers=4,port=2049 0 0
+# 162.242.168.146:/home/nfstest /mnt/jtg-test3 nfs defaults 0 0
+# 129.74.246.249:/data/grimm /mnt/ossn01 nfs rw,sync,nfsvers=4,port=6111 0 0
+129.74.246.249:/data/grimm /mnt/ossn01 nfs rw,sync,nfsvers=4,port=6111,proto=tcp,retrans=2,retry=2,bg,hard,rsize=32768,wsize=32768,bsize=32768,sharecache,mountproto=tcp,sec=sys,addr=129.74.246.249,clientaddr=162.242.168.156 0 0
+tmpfs /dev/shm tmpfs defaults 0 0
+devpts /dev/pts devpts gid=5,mode=620 0 0
+sysfs /sys sysfs defaults 0 0
+proc /proc proc defaults 0 0
+#/dev/xvdc1 none swap sw 0 0

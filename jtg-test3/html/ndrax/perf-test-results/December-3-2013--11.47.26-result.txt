@@ -1,0 +1,86 @@
+
+########################################
+#
+# TEST PARAMATERS
+#
+# Local Host                = jtg-test3.cloudheresy.com
+# Remote Host               = 129.74.246.249
+# Blocksize(s)              = (2048 KB) (2048 KB) 
+# Filesize(s)               = (500 MB) 
+# Input (write to remote)   = /dev/urandom
+# Output (read from remote) = /dev/null
+# Mounts                    = (/mnt/ossn01)
+#
+########################################
+#
+# GENERATING RANDOM FILES
+#
+# Generating 500 MB random file...DONE
+#
+########################################
+#
+# BEGIN DATA TRANSFER TESTING
+#
+########################################
+#
+# REMOTE        = 129.74.246.249:/data/grimm
+# LOCAL         = /mnt/ossn01
+# MOUNT OPTIONS = rw,nfsvers=4,port=6111,proto=tcp,retrans=2,retry=2,bg,hard,rsize=32768,wsize=32768,bsize=32768,sharecache,mountproto=tcp,sec=sys,addr=129.74.246.249,clientaddr=162.242.168.146
+# TEST TIME     = Wednesday-December-3-2013--11:46:26
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 2048 KB
+# TEST TIME    = 12/11/13 11:46 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 87.0
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 21.3
+#
+# AVERAGE      = 54.15 (50% read / 50% write)
+#
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 2048 KB
+# TEST TIME    = 12/11/13 11:46 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 77.2
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 24.9
+#
+# AVERAGE      = 51.05 (50% read / 50% write)
+#
+########################################
+#
+# END TESTING - RESULTS
+#
+#
+########################################
+#
+# EMAILING RESULTS
+#
+# SOURCE		DEST		DRIVE			TRANSFER	SPEED
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		87.0
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		21.3
+# 								AVG		54.15 MB/s
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		77.2
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		24.9
+# 								AVG		51.05 MB/s
+#

@@ -1,0 +1,293 @@
+
+########################################
+#
+# TEST PARAMATERS
+#
+# Local Host                = jtg-test3.cloudheresy.com
+# Remote Host               = 129.74.246.249
+# Blocksize(s)              = 1024, 2048, 2048, 2048, 2048, 2048, 4096, 4096, 8192, 8192, 16384
+# Filesize(s)               = 500
+# Input (write to remote)   = /dev/urandom
+# Output (read from remote) = /dev/null
+# Mounts                    = (/mnt/ossn01)
+#
+########################################
+#
+# GENERATING RANDOM FILES
+#
+# Generating 500 MB random file...DONE
+#
+########################################
+#
+# BEGIN DATA TRANSFER TESTING
+#
+########################################
+#
+# REMOTE        = 129.74.246.249:/data/grimm
+# LOCAL         = /mnt/ossn01
+# MOUNT OPTIONS = rw,sync,nfsvers=4,port=6111,proto=tcp,retrans=2,retry=2,bg,hard,rsize=32768,wsize=32768,bsize=32768,sharecache,mountproto=tcp,sec=sys,addr=129.74.246.249,clientaddr=162.242.168.146
+# TEST TIME     = Friday-December-5-2013--00:16:19
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 1024 KB
+# TEST TIME    = 12/13/13 00:16 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 83.7
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 2.4
+#
+# AVERAGE      = 43.05 (50% read / 50% write)
+#
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 2048 KB
+# TEST TIME    = 12/13/13 00:16 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 78.9
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 36.5
+#
+# AVERAGE      = 57.70 (50% read / 50% write)
+#
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 2048 KB
+# TEST TIME    = 12/13/13 00:16 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 91.6
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 30.2
+#
+# AVERAGE      = 60.90 (50% read / 50% write)
+#
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 2048 KB
+# TEST TIME    = 12/13/13 00:16 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 87.4
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 20.4
+#
+# AVERAGE      = 53.90 (50% read / 50% write)
+#
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 2048 KB
+# TEST TIME    = 12/13/13 00:16 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 87.8
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 47.6
+#
+# AVERAGE      = 67.70 (50% read / 50% write)
+#
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 2048 KB
+# TEST TIME    = 12/13/13 00:16 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 89.5
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 47.3
+#
+# AVERAGE      = 68.40 (50% read / 50% write)
+#
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 4096 KB
+# TEST TIME    = 12/13/13 00:16 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 92.1
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 32.0
+#
+# AVERAGE      = 62.05 (50% read / 50% write)
+#
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 4096 KB
+# TEST TIME    = 12/13/13 00:16 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 88.5
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 24.8
+#
+# AVERAGE      = 56.65 (50% read / 50% write)
+#
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 8192 KB
+# TEST TIME    = 12/13/13 00:16 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 87.9
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 26.6
+#
+# AVERAGE      = 57.25 (50% read / 50% write)
+#
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 8192 KB
+# TEST TIME    = 12/13/13 00:16 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 88.9
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 28.9
+#
+# AVERAGE      = 58.90 (50% read / 50% write)
+#
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 16384 KB
+# TEST TIME    = 12/13/13 00:16 EST
+#
+# DATA SOURCE  = /tmp/jtg-test3-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test3-500.mb.file
+# WRITE SPEED  = 87.5
+#
+# DATA SOURCE  = /mnt/ossn01/jtg-test3-500.mb.file
+# DATA DEST    = /dev/null
+# READ SPEED   = 17.7
+#
+# AVERAGE      = 52.60 (50% read / 50% write)
+#
+########################################
+#
+# END TESTING - RESULTS
+#
+#
+########################################
+#
+# EMAILING RESULTS
+#
+# SOURCE		DEST		DRIVE			TRANSFER	SPEED
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		83.7
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		2.4
+# 								AVG		43.05 MB/s
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		78.9
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		36.5
+# 								AVG		57.70 MB/s
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		91.6
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		30.2
+# 								AVG		60.90 MB/s
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		87.4
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		20.4
+# 								AVG		53.90 MB/s
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		87.8
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		47.6
+# 								AVG		67.70 MB/s
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		89.5
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		47.3
+# 								AVG		68.40 MB/s
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		92.1
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		32.0
+# 								AVG		62.05 MB/s
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		88.5
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		24.8
+# 								AVG		56.65 MB/s
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		87.9
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		26.6
+# 								AVG		57.25 MB/s
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		88.9
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		28.9
+# 								AVG		58.90 MB/s
+#
+# jtg-test3		129.74.246.249	/mnt/ossn01		WRITE		87.5
+# 129.74.246.249	jtg-test3	/mnt/ossn01		READ		17.7
+# 								AVG		52.60 MB/s
+#

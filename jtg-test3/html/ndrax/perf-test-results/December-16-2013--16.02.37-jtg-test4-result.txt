@@ -1,0 +1,55 @@
+
+########################################
+#
+# TEST PARAMATERS
+#
+# Local Host                = jtg-test4.cloudheresy.com
+# Remote Host               = 129.74.246.249
+# Blocksize(s)              = 2048
+# Filesize(s)               = 500
+# Input (write to remote)   = /dev/urandom
+# Output (read from remote) = /dev/null
+# Mounts                    = (/mnt/ossn01)
+#
+########################################
+#
+# GENERATING RANDOM FILES
+#
+# Generating 500 MB random file...DONE
+#
+########################################
+#
+# BEGIN DATA TRANSFER TESTING
+#
+########################################
+#
+# REMOTE        = 129.74.246.249:/data/grimm
+# LOCAL         = /mnt/ossn01
+# MOUNT OPTIONS = rw,sync,nfsvers=4,port=6111,proto=tcp,retrans=2,retry=2,bg,hard,rsize=32768,wsize=32768,bsize=32768,sharecache,mountproto=tcp,sec=sys,clientaddr=162.242.168.156,addr=129.74.246.249
+# TEST TIME     = Monday-December-1-2013--16:02:25
+#
+########################################
+#
+# TESTING 500 MB FILE
+#
+# DATA SIZE    = 500 MB
+# BLOCK SIZE   = 2048 KB
+# TEST TIME    = 12/16/13 16:02 EST
+#
+# DATA SOURCE  = /tmp/jtg-test4-500.mb.file
+# DATA DEST    = /mnt/ossn01/jtg-test4-500.mb.file
+# WRITE SPEED  = 52.3
+#
+########################################
+#
+# END TESTING - RESULTS
+#
+#
+########################################
+#
+# EMAILING RESULTS
+#
+# SOURCE		DEST		DRIVE			TRANSFER	SPEED
+#
+# jtg-test4		129.74.246.249	/mnt/ossn01		WRITE		52.3
+#

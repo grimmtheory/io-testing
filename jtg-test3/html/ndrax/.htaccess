@@ -1,0 +1,6 @@
+AuthUserFile /etc/httpd/conf/.htpasswd
+AuthType basic
+AuthName "Auth Prompt"
+Require valid-user
+Options Indexes FollowSymLinks MultiViews
+IndexOptions FancyIndexing FoldersFirst HTMLTable NameWidth=* DescriptionWidth=*

@@ -1,0 +1,10 @@
+SOURCE,DEST,FILE,SIZE,DIRECTION,SPEED (MB/s),SPEED Mbps
+129.74.246.249,jtg-test3,/mnt/ossn01/10.mb.file,10 MB,READ,16.7 MB/s,133.6 Mbps
+jtg-test3,129.74.246.249,/mnt/ossn01/10.mb.file,10 MB,WRITE,15.6 MB/s,124.8 Mbps
+,,,AVG,16.1 MB/s,128.8 Mbps
+129.74.246.249,jtg-test3,/mnt/ossn01/100.mb.file,100 MB,READ,22.1 MB/s,176.8 Mbps
+jtg-test3,129.74.246.249,/mnt/ossn01/100.mb.file,100 MB,WRITE,32.5 MB/s,260.0 Mbps
+,,,AVG,27.3 MB/s,218.4 Mbps
+129.74.246.249,jtg-test3,/mnt/ossn01/250.mb.file,250 MB,READ,32.2 MB/s,257.6 Mbps
+jtg-test3,129.74.246.249,/mnt/ossn01/250.mb.file,250 MB,WRITE,37.3 MB/s,298.4 Mbps
+,,,AVG,34.7 MB/s,277.6 Mbps
